@@ -769,7 +769,7 @@ p{
         flex-direction: row;
     }
     #projects .project-item{
-       min-height: 200px;
+        height: 300px;
         margin: 0;
         width: 100%;
         border-radius: 0;
