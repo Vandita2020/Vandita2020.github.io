@@ -377,8 +377,8 @@ p{
         margin-top: 10;
         font-weight: 10;
 }
-
 /* End Education Section */
+/* Experience Section */
 #experience .experience{
     flex-direction: column;
     max-width: 1200px;
@@ -477,7 +477,7 @@ p{
       text-align: right;
 }
 #experience .experience-item .experience-info{
-    margin: 0 0 0em;
+    margin: 0 auto;
     float: left;
     width: 100%;
     padding: 20px;
@@ -487,7 +487,7 @@ p{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #3a6c75, #3a6c74 100%);
+    background-color: #3a6c75;
     color: white;
     justify-content: space-evenly;
 }
@@ -517,8 +517,6 @@ p{
         font-weight: 10;
         text-transform: capitalize;
 }
-/* Experience Section */
-
 /* End Experience Section */
 /* Project Section*/
 #projects .projects{
@@ -756,7 +754,7 @@ p{
         flex-direction: row;
     }
     #experience .experience-item{
-        height: 200px;
+        min-height: 200px;
         margin: 0;
         width: 100%;
         border-radius: 0;
@@ -771,7 +769,7 @@ p{
         flex-direction: row;
     }
     #projects .project-item{
-        height: 300px;
+       min-height: 200px;
         margin: 0;
         width: 100%;
         border-radius: 0;
